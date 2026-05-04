@@ -1,6 +1,6 @@
 (function () {
 
-    const api_Url = "https://bot-assist-khaki.vercel.app/"
+    const api_Url = "https://bot-assist-khaki.vercel.app/api/chat"
 
     const scriptTag = document.currentScript;
     const ownerId = scriptTag.getAttribute("data-owner-id")
