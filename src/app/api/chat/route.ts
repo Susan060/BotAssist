@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
         const KNOWLEDGE = `
         business name-${setting.businessName || "not provided"}
         support email-${setting.supportEmail || "not provided"}
-        knowledge-${setting.knowledgeBase || "not provided"}`
+        knowledge-${setting.knowledge || "not provided"}`
 
         const prompt = `You are an AI support assistant for [Business Name]. You are helpful, concise, and professional.
 
